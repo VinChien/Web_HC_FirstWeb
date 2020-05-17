@@ -1,7 +1,10 @@
 @font-face {
+    /* 字形名稱 */
     font-family: Ngaan;
+    /* 字形來源 src url 路徑 */
     src: url(./font/I.Ngaan.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
