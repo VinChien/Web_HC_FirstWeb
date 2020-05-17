@@ -34,16 +34,24 @@ nav {
 }
 
 #nav a {
-    /* 文字-裝飾 - 底線、刪除線 */
-    text-decoration: none;
-    color: brown;
-    font-size: 20px;
-    /* 轉場:時間 */
-    transition: 0.3s;
+  /* 文字-裝飾 - 底線、刪除線 */
+  text-decoration: none;
+  color: brown;
+  font-size: 20px;
+  /* 轉場:時間 */
+  transition: 0.3s;
 }
 
 /* :hover 滑入 */
 #nav a:hover {
-    color: black;
-    font-size: 22px;
+  color: black;
+  font-size: 22px;
+}
+
+#banner {
+    height: 100vh;
+    background-image: url(./img/noodles.jpg);
+    background-size: cover;
+    transform: scale(1);
+    transition: 3s;
 }
