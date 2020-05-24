@@ -168,10 +168,71 @@ section hr {
   color: #252525;
 }
 
+#news a:hover{
+  color: gold;
+}
+
+#news li {
+  font-weight: 900;
+}
+
 /* 聯絡我們 */
+#contact {
+  text-align: center;
+}
+
+#contact h1 {
+  text-align: left;
+}
+
 #contact p {
   width: 80%;
   margin: 0 auto;
   text-align: center;
   line-height: 2.5;
+  font-weight: 900;
+}
+
+#contact form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact form div {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 20px;
+  padding-right: 20px;
+}
+
+#contact div textarea {
+  grid-column: 1 / 3;
+  height: 200px;
+}
+
+#contact input {
+  text-align: center;
+  padding: 10px;
+}
+
+#contact input[type="submit"] {
+  width: 300px;
+  background-color: #252525;
+  color: white;
+  margin: 10px;
+  border: 0;
+  transition: 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: white;
+  color: #252525;
+  border: 1px solid #252525;
+}
+
+footer {
+  padding: 100px;
+  text-align: center;
+  background-color: #252525;
+  color: white;
 }
