@@ -106,7 +106,7 @@ section {
 }
 
 #about {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 #about > div {
@@ -123,7 +123,7 @@ section {
   height: 500px;
 }
 
-#about > div p{
+#about > div p {
   padding-right: 20px;
   letter-spacing: 5px;
   line-height: 2;
@@ -159,11 +159,19 @@ section hr {
   padding: 20px 0;
 }
 
-#news div{
+#news div {
   text-align: right;
 }
 
 #news a {
   text-decoration: none;
   color: #252525;
+}
+
+/* 聯絡我們 */
+#contact p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.5;
 }
