@@ -12,10 +12,19 @@
   box-sizing: border-box;
 }
 
+/* 導覽列 */
 nav {
   display: grid;
   grid-template-columns: 30% 70%;
   padding: 30px;
+  /* 定位：固定 */
+  position: fixed;
+  /* 上：0 or bottom 下 */
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+
 }
 
 #logo span {
@@ -36,7 +45,7 @@ nav {
 #nav a {
   /* 文字-裝飾 - 底線、刪除線 */
   text-decoration: none;
-  color: brown;
+  color: white;
   font-size: 20px;
   /* 轉場:時間 */
   transition: 0.3s;
@@ -44,14 +53,21 @@ nav {
 
 /* :hover 滑入 */
 #nav a:hover {
-  color: black;
+  color: gold;
   font-size: 22px;
 }
 
+/* 橫幅 */
 #banner {
+    /* 100vh 指的是跟螢幕一樣高 100% v h */
     height: 100vh;
-    background-image: url(./img/noodles.jpg);
+    /* 背景圖片 */
+    background-image: url(./img/noodles2.jpg);
+    /* 背景大小：填滿 */
     background-size: cover;
-    transform: scale(1);
-    transition: 3s;
+    /* 置中 */
+    background-position: center;
+
+    /* transform: scaleY(1);
+    transition: 3s; */
 }
